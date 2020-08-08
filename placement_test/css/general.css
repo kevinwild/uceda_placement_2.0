@@ -1,0 +1,109 @@
+body {
+    /*background-image: url("https://uceda.edu/wp-content/uploads/2017/04/uceda-logo-fade.png");*/
+    background-color: #f2f2f2;
+}
+.large_container {
+    min-width: 90% !important;
+    margin-bottom: 50px;
+}
+.shadow_container {
+    width: 75% !important;
+    background: rgba(255, 250, 252, 0.7);
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 10px 10px 30px;
+}
+
+#fixed_logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+}
+
+.grey_border_left {
+    border-left: solid lightGrey 7px;
+    padding: 10px;
+    margin-bottom: -12px;
+    margin-top: -12px;
+    margin-left: 5px;
+
+}
+.green_border_left {
+    border-left: solid lightgreen 7px;
+    padding: 10px;
+    margin-bottom: -12px;
+    margin-top: -12px;
+    margin-left: 5px;
+
+}
+.yellow_border_left {
+    border-left: solid #ffd200 7px;
+    padding: 10px;
+    margin-bottom: -12px;
+    margin-top: -12px;
+    margin-left: 5px;
+
+}
+.orange2_border_left {
+    border-left: solid #ffaf6c 7px;
+    padding: 10px;
+    margin-bottom: -12px;
+    margin-top: -12px;
+    margin-left: 5px;
+
+}
+
+.red_border_left {
+    border-left: solid #ff704d  7px;
+    padding: 10px;
+    margin-bottom: -12px;
+    margin-top: -12px;
+    margin-left: 5px;
+
+}
+.red {
+    color: red;
+}
+.vertical-border-left {
+    border-right: 1px solid #333;
+
+}
+
+.small_title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+#loading_container {
+    background: black;
+    z-index: 10000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .6;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position:absolute;
+    left:0;
+    right:0;
+    top: 50%;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
